@@ -6,6 +6,12 @@ class Favorites {
     number: number;
 }
 
+window.onload = function(){
+    //Set up button click for add book form
+    let addFavsBtn = document.querySelector("#submit-favs") as HTMLButtonElement;
+    addFavsBtn.onclick = processFavs;
+}
+
 function processFavs () {
     //validate
     let userFavs = getFavs();
@@ -14,7 +20,7 @@ function processFavs () {
     }
 }
 
-function getFavs (): Favorites {
+function getFavs ():Favorites {
     clearAllErrorMessages();
 
     //get inputs
