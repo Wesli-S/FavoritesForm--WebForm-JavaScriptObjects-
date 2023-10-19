@@ -6,6 +6,14 @@ class Favorites {
     number: number;
 }
 
+function processFavs () {
+    //validate
+    let userFavs = getFavs();
+    if(userFavs != null) {
+        getFavs(userFavs);
+    }
+}
+
 function getFavs (): Favorites {
     clearAllErrorMessages();
 
