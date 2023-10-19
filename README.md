@@ -1,6 +1,6 @@
 # What's your favorite _______?
-In this assignment, I made a small webpage that prompts the user for their some of their favorite things. 
-I'm not sure if I needed a README for this assignment, but I'll use it to put the requirements in:
+For this assignment, I made a small webpage that prompts the user for their some of their favorite things. 
+I'll just be using this README to put the assignment requirements in:
 
 - Create a form with a minimum of 4 pieces of criteria to validate (ex. Name/Price/Description/Expiration Date)
 - If there is any invalid data error messages should be shown
