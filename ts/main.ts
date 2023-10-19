@@ -6,6 +6,13 @@ class Favorites {
     number: number;
 }
 
+let myFavs = new Favorites();
+myFavs.animal = "hedgehog";
+myFavs.color = "dark purple";
+myFavs.food = "sundubu-jjigae";
+myFavs.hobby = "drawing";
+myFavs.number = 7;
+
 window.onload = function(){
     //Set up button click for add book form
     let addFavsBtn = document.querySelector("#submit-favs") as HTMLButtonElement;
@@ -16,7 +23,7 @@ function processFavs () {
     //validate
     let userFavs = getFavs();
     if(userFavs != null) {
-        getFavs(userFavs);
+        getFavs();
     }
 }
 
